@@ -10,3 +10,12 @@ This script requires Web3 version **7.8.0**. Install it using:
 ```bash
 pip3 install web3==7.8.0
 pip3 install aiogram==3.18.0
+```
+**.env**
+```bash
+export TELEGRAM_BOT_TOKEN="........."
+export PRIVATE_KEY="......"
+export USER_ADDRESS="......"
+export CONTRACT_ADDRESS="........"  # Opsional
+export GAS_PRICE="1000"              # Opsional
+export AMOUNT="1"                    # Opsional
