@@ -9,11 +9,11 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from swaps_tokens.tea_to_contract import TeaToContract
 
-# Logging configuration
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# List of popular tokens
+
 POPULAR_TOKENS: List[Dict] = [
     {"address": "0xf990e015F8DAEf9F7d51B6d57c6E105D9bd5f3be", "name": "butt"},
     {"address": "0xdD777582C445f234d3E2C6c3B3a9dd1dDf3558F1", "name": "Fresh Tea"},
